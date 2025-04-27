@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permintaan Maaf Tulus dari Hatiku</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f3f3;
+            color: #333;
+        }
+        h1 {
+            color: #d23669;
+            text-align: center;
+        }
+        .letter {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .signature {
+            font-style: italic;
+            text-align: right;
+            margin-top: 30px;
+        }
+        .heart {
+            color: red;
+            font-size: 24px;
+        }
+        button {
+            background-color: #d23669;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #a52a52;
+        }
+    </style>
+</head>
+<body>
+    <h1>Permintaan Maaf Tulus</h1>
+    
+    <div class="letter">
+        <p>Hai [Nama Penerima],</p>
+        
+        <p>Aku menulis ini dengan perasaan penuh penyesalan. Aku benar-benar minta maaf atas [jelaskan kesalahan]. Aku sadar bahwa perbuatanku telah menyakiti hatimu dan itu bukanlah yang aku inginkan.</p>
+        
+        <p>Aku mengakui kesalahanku dan berjanji akan berusaha menjadi lebih baik. Kamu sangat berarti bagiku, dan melihatmu terluka karena perbuatanku membuat hatiku hancur.</p>
+        
+        <p>Aku berharap kamu bisa memaafkanku dan memberi aku kesempatan untuk memperbaiki kesalahan ini. Aku benar-benar menyesal dan berjanji ini tidak akan terulang lagi.</p>
+        
+        <p>Dengan penuh harap dan penyesalan,</p>
+        
+        <div class="signature">
+            [Nama Anda]<br>
+            <span class="heart">❤</span>
+        </div>
+    </div>
+
+    <center>
+        <button onclick="playMusic()">Putar Musik</button>
+        <audio id="bgMusic" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    </center>
+
+    <script>
+        function playMusic() {
+            const music = document.getElementById('bgMusic');
+            music.play();
+        }
+    </script>
+</body>
+</html>
